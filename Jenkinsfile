@@ -7,8 +7,7 @@ pipeline {
         Foo = 'World'
       }
       steps {
-        echo 'hello ' + Foo
-
+        echo "Hello ${FOO}"
       }
     }
   }
